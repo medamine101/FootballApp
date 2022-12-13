@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D010BDBC7F86D36FE6F6F89745C8525 /* Pods-FootballApp-FootballAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1113746A2B992E904DCDB46502DADE5 /* Pods-FootballApp-FootballAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E18E142236013AE1AEA7C5E9B5F548B /* Pods-FootballAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86623F8447FF29E3B2D9628F09FBC9 /* Pods-FootballAppTests-dummy.m */; };
+		56B47689DD1CD717D0FAFEF03231A397 /* Pods-FootballAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEB673798E857D3524700C869F36430 /* Pods-FootballAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E972D99ECC13E896F27708253E0D46F /* Pods-FootballApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0672ADD0575FB07707A88C06B3C3F3 /* Pods-FootballApp-dummy.m */; };
+		74FDDF49B0B5AEC4DEE4492FCA0FDA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7DDF3C37ADA3F1E84B3CA9BDD62CE5F7 /* Pods-FootballApp-FootballAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD534BEF825C1B5DDADAA2AD29588 /* Pods-FootballApp-FootballAppUITests-dummy.m */; };
+		83F8266EF6AF43896BC894E1398B13F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A7BD2BD64C7BE74A751F90D394823D8A /* Pods-FootballApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9610CEBC4DDA2FEF608E37F518B77FF3 /* Pods-FootballApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2E8255DA130C43BF3BFF3B414B680E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4440922956793BE03DC55D38C8E9069A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECDCBA40D010F5F12639C3B43DC0ECB;
+			remoteInfo = "Pods-FootballApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BCEB67CEF6C54A5B5888A6ACA3FFEF1 /* Pods-FootballAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootballAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D87F7EBC9AB56A4F5410A049514B2E6 /* Pods-FootballApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootballApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AD903A10AEB2C438FDD40000206DC3D /* Pods-FootballAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootballAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E0672ADD0575FB07707A88C06B3C3F3 /* Pods-FootballApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FootballApp-dummy.m"; sourceTree = "<group>"; };
+		230F4E7CEA23D247809D1B21F8B5CE5D /* Pods-FootballApp-FootballAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FootballApp-FootballAppUITests"; path = Pods_FootballApp_FootballAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D140B9879BAB4F1B3F203FFD863CB0 /* Pods-FootballAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FootballAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A446A948B9B104567381F2997D36ED8 /* Pods-FootballApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FootballApp.modulemap"; sourceTree = "<group>"; };
+		3CEB673798E857D3524700C869F36430 /* Pods-FootballAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FootballAppTests-umbrella.h"; sourceTree = "<group>"; };
+		44E58D6BC4C803AA4B78297AF71CDA3C /* Pods-FootballApp-FootballAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootballApp-FootballAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5278FB16EE316ECE1B68D33033584B64 /* Pods-FootballApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootballApp-Info.plist"; sourceTree = "<group>"; };
+		5B9671FBBBCB272B74846F20BA0FC2ED /* Pods-FootballAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootballAppTests-Info.plist"; sourceTree = "<group>"; };
+		6C86623F8447FF29E3B2D9628F09FBC9 /* Pods-FootballAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FootballAppTests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		807741B8AD2358C4D09A2B9F3BE0D17C /* Pods-FootballAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootballAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		86AD8212A699D8F8268DC689FA9463F3 /* Pods-FootballApp-FootballAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootballApp-FootballAppUITests-Info.plist"; sourceTree = "<group>"; };
+		9610CEBC4DDA2FEF608E37F518B77FF3 /* Pods-FootballApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FootballApp-umbrella.h"; sourceTree = "<group>"; };
+		9633A936489B799295FB4DF4FB62492B /* Pods-FootballApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootballApp.release.xcconfig"; sourceTree = "<group>"; };
+		975960E476E5DEA005B1D90C12243083 /* Pods-FootballApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FootballApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3B62C9CAED3FA29747511A2AD52BBC /* Pods-FootballApp-FootballAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootballApp-FootballAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8098553EC2D8ED4DF4944A5609ABDC6 /* Pods-FootballApp-FootballAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FootballApp-FootballAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA61C75505D9E2A9DD21AFD1B27DD3ED /* Pods-FootballAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FootballAppTests.modulemap"; sourceTree = "<group>"; };
+		BBC365518EE84FF3EAE36A67639175C7 /* Pods-FootballApp-FootballAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FootballApp-FootballAppUITests.modulemap"; sourceTree = "<group>"; };
+		C1113746A2B992E904DCDB46502DADE5 /* Pods-FootballApp-FootballAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FootballApp-FootballAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		C6AFD534BEF825C1B5DDADAA2AD29588 /* Pods-FootballApp-FootballAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FootballApp-FootballAppUITests-dummy.m"; sourceTree = "<group>"; };
+		C8B86AC6D665C498859F6139EAA37A03 /* Pods-FootballApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FootballApp"; path = Pods_FootballApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96DCA1B596A427BF62D3C5DDC1BD78F /* Pods-FootballAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FootballAppTests"; path = Pods_FootballAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC4DC848C7A26F3875FEE9813DA03C /* Pods-FootballApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootballApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FDF8BBAEFA999CF9952F31F0CF719116 /* Pods-FootballApp-FootballAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootballApp-FootballAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB6AE518483D66B9E5ED866094F4C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2E8255DA130C43BF3BFF3B414B680E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6A322C2375EB36A6245ECB4D982B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F8266EF6AF43896BC894E1398B13F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C218542656A73EC61FC3A5A05D48B48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDDF49B0B5AEC4DEE4492FCA0FDA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151978205EBEED8259F03FD592A4FD23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B86AC6D665C498859F6139EAA37A03 /* Pods-FootballApp */,
+				230F4E7CEA23D247809D1B21F8B5CE5D /* Pods-FootballApp-FootballAppUITests */,
+				D96DCA1B596A427BF62D3C5DDC1BD78F /* Pods-FootballAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E53EFD5FF1E5046530BCF2D444FA73C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0B03EC988DADC1933A6839EB96384CC /* Pods-FootballApp */,
+				DB98B35A1B5356AC431A6071B98F0945 /* Pods-FootballApp-FootballAppUITests */,
+				DF1D82AB05590EE57FB9BDBE89A9820E /* Pods-FootballAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0B03EC988DADC1933A6839EB96384CC /* Pods-FootballApp */ = {
+			isa = PBXGroup;
+			children = (
+				3A446A948B9B104567381F2997D36ED8 /* Pods-FootballApp.modulemap */,
+				975960E476E5DEA005B1D90C12243083 /* Pods-FootballApp-acknowledgements.markdown */,
+				0D87F7EBC9AB56A4F5410A049514B2E6 /* Pods-FootballApp-acknowledgements.plist */,
+				1E0672ADD0575FB07707A88C06B3C3F3 /* Pods-FootballApp-dummy.m */,
+				5278FB16EE316ECE1B68D33033584B64 /* Pods-FootballApp-Info.plist */,
+				9610CEBC4DDA2FEF608E37F518B77FF3 /* Pods-FootballApp-umbrella.h */,
+				FADC4DC848C7A26F3875FEE9813DA03C /* Pods-FootballApp.debug.xcconfig */,
+				9633A936489B799295FB4DF4FB62492B /* Pods-FootballApp.release.xcconfig */,
+			);
+			name = "Pods-FootballApp";
+			path = "Target Support Files/Pods-FootballApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				151978205EBEED8259F03FD592A4FD23 /* Products */,
+				7E53EFD5FF1E5046530BCF2D444FA73C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB98B35A1B5356AC431A6071B98F0945 /* Pods-FootballApp-FootballAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC365518EE84FF3EAE36A67639175C7 /* Pods-FootballApp-FootballAppUITests.modulemap */,
+				A8098553EC2D8ED4DF4944A5609ABDC6 /* Pods-FootballApp-FootballAppUITests-acknowledgements.markdown */,
+				9F3B62C9CAED3FA29747511A2AD52BBC /* Pods-FootballApp-FootballAppUITests-acknowledgements.plist */,
+				C6AFD534BEF825C1B5DDADAA2AD29588 /* Pods-FootballApp-FootballAppUITests-dummy.m */,
+				86AD8212A699D8F8268DC689FA9463F3 /* Pods-FootballApp-FootballAppUITests-Info.plist */,
+				C1113746A2B992E904DCDB46502DADE5 /* Pods-FootballApp-FootballAppUITests-umbrella.h */,
+				44E58D6BC4C803AA4B78297AF71CDA3C /* Pods-FootballApp-FootballAppUITests.debug.xcconfig */,
+				FDF8BBAEFA999CF9952F31F0CF719116 /* Pods-FootballApp-FootballAppUITests.release.xcconfig */,
+			);
+			name = "Pods-FootballApp-FootballAppUITests";
+			path = "Target Support Files/Pods-FootballApp-FootballAppUITests";
+			sourceTree = "<group>";
+		};
+		DF1D82AB05590EE57FB9BDBE89A9820E /* Pods-FootballAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA61C75505D9E2A9DD21AFD1B27DD3ED /* Pods-FootballAppTests.modulemap */,
+				24D140B9879BAB4F1B3F203FFD863CB0 /* Pods-FootballAppTests-acknowledgements.markdown */,
+				1AD903A10AEB2C438FDD40000206DC3D /* Pods-FootballAppTests-acknowledgements.plist */,
+				6C86623F8447FF29E3B2D9628F09FBC9 /* Pods-FootballAppTests-dummy.m */,
+				5B9671FBBBCB272B74846F20BA0FC2ED /* Pods-FootballAppTests-Info.plist */,
+				3CEB673798E857D3524700C869F36430 /* Pods-FootballAppTests-umbrella.h */,
+				0BCEB67CEF6C54A5B5888A6ACA3FFEF1 /* Pods-FootballAppTests.debug.xcconfig */,
+				807741B8AD2358C4D09A2B9F3BE0D17C /* Pods-FootballAppTests.release.xcconfig */,
+			);
+			name = "Pods-FootballAppTests";
+			path = "Target Support Files/Pods-FootballAppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		068548F5F084E2DB5B3922411AC62A2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B47689DD1CD717D0FAFEF03231A397 /* Pods-FootballAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25AC097EF805E717E0B7D847C5D8685A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BD2BD64C7BE74A751F90D394823D8A /* Pods-FootballApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E54B295CD9EC4C69BACF93246AE15ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D010BDBC7F86D36FE6F6F89745C8525 /* Pods-FootballApp-FootballAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5ABE86A83B4400772A4B067CCACA99B /* Pods-FootballAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647CC10FBD4D5403F316FDF52CB1A9F1 /* Build configuration list for PBXNativeTarget "Pods-FootballAppTests" */;
+			buildPhases = (
+				068548F5F084E2DB5B3922411AC62A2C /* Headers */,
+				1F949AACFA6CD0F1C67D85E903BFF491 /* Sources */,
+				C218542656A73EC61FC3A5A05D48B48C /* Frameworks */,
+				0B1283545DC9B26A3149FA4F42F74CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF06553F11CC146282C46BFD0730D29 /* PBXTargetDependency */,
+			);
+			name = "Pods-FootballAppTests";
+			productName = Pods_FootballAppTests;
+			productReference = D96DCA1B596A427BF62D3C5DDC1BD78F /* Pods-FootballAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DECDCBA40D010F5F12639C3B43DC0ECB /* Pods-FootballApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF5E2E9D03EB13CCABCA3363C2943F7 /* Build configuration list for PBXNativeTarget "Pods-FootballApp" */;
+			buildPhases = (
+				25AC097EF805E717E0B7D847C5D8685A /* Headers */,
+				1A12BBFACFF1B3535C632CF3874CDA99 /* Sources */,
+				8C6A322C2375EB36A6245ECB4D982B07 /* Frameworks */,
+				FA618031D58AAA4FBC0AE160EBE3E7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FootballApp";
+			productName = Pods_FootballApp;
+			productReference = C8B86AC6D665C498859F6139EAA37A03 /* Pods-FootballApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3AF2786C319AB356C3386075C75B27F /* Pods-FootballApp-FootballAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCCF71B23929B52E7970ABBA122131C /* Build configuration list for PBXNativeTarget "Pods-FootballApp-FootballAppUITests" */;
+			buildPhases = (
+				7E54B295CD9EC4C69BACF93246AE15ED /* Headers */,
+				D9BB5A1D154A140E04BB8C56CCACA83E /* Sources */,
+				8BB6AE518483D66B9E5ED866094F4C46 /* Frameworks */,
+				00DC19651B4ED47A8301C94B3F3154F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FootballApp-FootballAppUITests";
+			productName = Pods_FootballApp_FootballAppUITests;
+			productReference = 230F4E7CEA23D247809D1B21F8B5CE5D /* Pods-FootballApp-FootballAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 151978205EBEED8259F03FD592A4FD23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECDCBA40D010F5F12639C3B43DC0ECB /* Pods-FootballApp */,
+				E3AF2786C319AB356C3386075C75B27F /* Pods-FootballApp-FootballAppUITests */,
+				B5ABE86A83B4400772A4B067CCACA99B /* Pods-FootballAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DC19651B4ED47A8301C94B3F3154F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1283545DC9B26A3149FA4F42F74CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA618031D58AAA4FBC0AE160EBE3E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A12BBFACFF1B3535C632CF3874CDA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E972D99ECC13E896F27708253E0D46F /* Pods-FootballApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F949AACFA6CD0F1C67D85E903BFF491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E18E142236013AE1AEA7C5E9B5F548B /* Pods-FootballAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BB5A1D154A140E04BB8C56CCACA83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDF3C37ADA3F1E84B3CA9BDD62CE5F7 /* Pods-FootballApp-FootballAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF06553F11CC146282C46BFD0730D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FootballApp";
+			target = DECDCBA40D010F5F12639C3B43DC0ECB /* Pods-FootballApp */;
+			targetProxy = 4440922956793BE03DC55D38C8E9069A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		32EB45DC533DF73EF4260E9FD4D7521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807741B8AD2358C4D09A2B9F3BE0D17C /* Pods-FootballAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FootballAppTests/Pods-FootballAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FootballAppTests/Pods-FootballAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C88EA1ECF638B3D7D4F85C7CF4711CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E58D6BC4C803AA4B78297AF71CDA3C /* Pods-FootballApp-FootballAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FootballApp-FootballAppUITests/Pods-FootballApp-FootballAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FootballApp-FootballAppUITests/Pods-FootballApp-FootballAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CD5F1F67CDAAD7F6FA05ABA649194A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCEB67CEF6C54A5B5888A6ACA3FFEF1 /* Pods-FootballAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FootballAppTests/Pods-FootballAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FootballAppTests/Pods-FootballAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2494EC8DD7C795324DF89949B122EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9633A936489B799295FB4DF4FB62492B /* Pods-FootballApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FootballApp/Pods-FootballApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FootballApp/Pods-FootballApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBE82EC312DD0E0E7C1430D11733543F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF8BBAEFA999CF9952F31F0CF719116 /* Pods-FootballApp-FootballAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FootballApp-FootballAppUITests/Pods-FootballApp-FootballAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FootballApp-FootballAppUITests/Pods-FootballApp-FootballAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF90FBBB3DD05ECD2729AB085DC3C1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADC4DC848C7A26F3875FEE9813DA03C /* Pods-FootballApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FootballApp/Pods-FootballApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FootballApp/Pods-FootballApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCCF71B23929B52E7970ABBA122131C /* Build configuration list for PBXNativeTarget "Pods-FootballApp-FootballAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C88EA1ECF638B3D7D4F85C7CF4711CA /* Debug */,
+				EBE82EC312DD0E0E7C1430D11733543F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647CC10FBD4D5403F316FDF52CB1A9F1 /* Build configuration list for PBXNativeTarget "Pods-FootballAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD5F1F67CDAAD7F6FA05ABA649194A1 /* Debug */,
+				32EB45DC533DF73EF4260E9FD4D7521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF5E2E9D03EB13CCABCA3363C2943F7 /* Build configuration list for PBXNativeTarget "Pods-FootballApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF90FBBB3DD05ECD2729AB085DC3C1A9 /* Debug */,
+				B2494EC8DD7C795324DF89949B122EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
